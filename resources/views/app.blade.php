@@ -41,8 +41,8 @@
                                             <ul class="list-unstyled menu">
                                                 <li><a href="{{ route('home') }}">Home</a></li>
                                                 <li><a href="{{ route('hotel') }}">Hotel</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                {{-- <li><a href="about.html">About</a></li>
+                                                <li><a href="contact.html">Contact</a></li> --}}
                                             </ul>
                                         </div>
                                         <div class="col-md-6 extra-info">
