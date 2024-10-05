@@ -19,7 +19,7 @@
                 <p>Private suite with 1 double bed, with easy access to the Pool and a Garden view, complete with air conditioning, free Wi-Fi and
                     amenities. Perfect for 1-2 persons.</p>
                 <span>Starts from</span>
-                <h3>Rp 875,000</h3>
+                <h3>Rp {{ number_format($prices[0]->price) }}</h3>
             </div>
         </div>
 
@@ -30,7 +30,7 @@
                 <p>Room with 2 double beds, complete with pool, courtyard and garden view and access, included all the features from the Suite room.
                     Perfect for more than 3 persons.</p>
                 <span>Starts from</span>
-                <h3>Rp 1,147,500</h3>
+                <h3>Rp {{ number_format($prices[1]->price) }}</h3>
             </div>
         </div>
 
@@ -71,4 +71,5 @@
 
             </div>
         </div>
-    @endsection
+    </section>
+@endsection

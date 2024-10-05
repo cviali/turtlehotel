@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get('/hotel', function () {
-    return view('hotel');
-})->name('hotel');
+Auth::routes();
+
+Route::get('/hotel', 'HotelController@index')->name('hotel');
+Route::get('/home', 'HomeController@index')->name('dashboard');
+
+Route::post('/update-price', 'HomeController@updatePrice')->name('update-price');

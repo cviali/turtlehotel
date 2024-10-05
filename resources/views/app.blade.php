@@ -8,7 +8,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet">
 
-        <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ asset('scss/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
         <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/font-awesome.min.css') }}">
 
         <!-- Theme Style -->
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('scss/style.css') }}">
     </head>
 
     <body>
@@ -40,7 +40,7 @@
                                         <div class="col-md-6">
                                             <ul class="list-unstyled menu">
                                                 <li><a href="{{ route('home') }}">Home</a></li>
-                                                <li><a href="{{ route('hotel') }}">Hotel</a></li>
+                                                <li><a href="{{ route('hotel') }}">Rooms</a></li>
                                                 {{-- <li><a href="about.html">About</a></li>
                                                 <li><a href="contact.html">Contact</a></li> --}}
                                             </ul>
@@ -54,9 +54,8 @@
                                                 <div class="col-md-6">
                                                     <h3>Connect With Us</h3>
                                                     <ul class="list-unstyled">
-                                                        <li><a href="#">Twitter</a></li>
-                                                        <li><a href="#">Facebook</a></li>
-                                                        <li><a href="#">Instagram</a></li>
+                                                        <li><a href="https://www.facebook.com/turtlebeachhotelgiliair">Facebook</a></li>
+                                                        <li><a href="https://www.instagram.com/turtlebeachhotelgiliair">Instagram</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -73,37 +72,18 @@
         <footer class="section footer-section">
             <div class="container">
                 <div class="row mb-4">
-                    <div class="col-md-3 mb-5">
-                        <ul class="list-unstyled link">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Rooms</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 mb-5">
-                        <ul class="list-unstyled link">
-                            <li><a href="#">Our Location</a></li>
-                            <li><a href="#">The Hosts</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Restaurant</a></li>
-                        </ul>
-                    </div>
                     <div class="col-md-3 mb-5 pr-md-5 contact-info">
                         <p><span class="d-block">Address:</span> <span> Gili Indah, Pemenang, North Lombok Regency West Nusa Tenggara 83352</span></p>
-                        <p><span class="d-block">Phone:</span> <span> (0370) 624322</span></p>
-                        <p><span class="d-block">Email:</span> <span> info@yourdomain.com</span></p>
+                        <p><span class="d-block">Phone:</span> <span> +62 818 549 007</span></p>
+                        <p><span class="d-block">Email:</span> <span> turtlebeachgiliair@gmail.com</span></p>
                     </div>
                 </div>
                 <div class="row bordertop pt-5">
                     <p class="col-md-6 text-left">
                     </p>
                     <p class="col-md-6 text-right social">
-                        <a href="#"><span class="fa fa-tripadvisor"></span></a>
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="https://www.facebook.com/turtlebeachhotelgiliair"><span class="fa fa-facebook"></span></a>
+                        <a href="https://www.instagram.com/turtlebeachhotelgiliair"><span class="fa fa-instagram"></span></a>
                     </p>
                 </div>
             </div>
