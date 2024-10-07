@@ -9,12 +9,12 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #007bff;
+  background: #20c997;
 }
 
 ::selection {
   color: #fff;
-  background: #007bff;
+  background: #20c997;
 }
 
 a {
@@ -114,7 +114,7 @@ textarea.form-control {
   height: 50%;
   width: 0%;
   z-index: -1;
-  background: #007bff;
+  background: #20c997;
   transition: 0.3s all ease-in-out;
 }
 .site-navbar nav .menu li a:hover:before {
@@ -284,7 +284,7 @@ textarea.form-control {
   color: #000;
 }
 .visit-section .visit a:hover {
-  color: #007bff;
+  color: #20c997;
 }
 .visit-section .visit img {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
@@ -296,7 +296,7 @@ textarea.form-control {
 }
 .visit-section .reviews-star span {
   font-size: 18px;
-  color: #007bff;
+  color: #20c997;
 }
 .visit-section .reviews-count {
   color: #adb5bd;
@@ -392,7 +392,7 @@ textarea.form-control {
   color: #000;
 }
 .post .media-custom a:hover {
-  color: #007bff;
+  color: #20c997;
 }
 .post .media-custom .media-body {
   padding: 10px 30px;

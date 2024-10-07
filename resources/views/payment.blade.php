@@ -12,7 +12,7 @@
         </div>
     </section>
 
-    <section class="section bg-primary contact-section">
+    <section class="section bg-secondary contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
