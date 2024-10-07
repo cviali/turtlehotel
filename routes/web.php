@@ -19,5 +19,6 @@ Auth::routes();
 
 Route::get('/hotel', 'HotelController@index')->name('hotel');
 Route::get('/home', 'HomeController@index')->name('dashboard');
+Route::get('/payment', 'PaymentController@index')->name('payment');
 
 Route::post('/update-price', 'HomeController@updatePrice')->name('update-price');
